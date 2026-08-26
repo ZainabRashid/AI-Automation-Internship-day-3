@@ -1,31 +1,41 @@
 # AI-Automation-Internship
 
-This repository contains my work and practical assignments completed during my AI Automation Internship.
+This repository contains my practical work and assignments completed during my AI Automation Internship.
 
-## Day 03 – Git, GitHub, APIs & Postman
+---
 
-### Lead Management API
+# Day 03 – Git, GitHub, APIs & Postman
 
-For this assignment, I built a Lead Management API using **n8n Webhooks** and **Google Sheets** as the data storage system.
+## Lead Management API
 
-### Current API Workflows
+As part of the Day 03 assignment, I developed a basic Lead Management API using **n8n Webhooks** and **Google Sheets**.
 
-The following API endpoints have been implemented:
+The purpose of this project is to understand how APIs communicate with automation workflows and how lead information can be stored and retrieved from a database-like spreadsheet.
 
-#### 1. Create Lead
+---
 
-**Method:** POST  
-**Endpoint:** `/create-lead`
+## Technologies Used
 
-This endpoint receives lead information and stores it as a new row in Google Sheets.
+- Git
+- GitHub
+- n8n
+- Google Sheets
+- REST API
+- Webhooks
+- JSON
+- Postman
 
-Example data:
+---
 
-```json
-{
-  "name": "Muhammad Ahmad",
-  "email": "ahmad@gmail.com",
-  "phone": "+923001234567",
-  "company": "MATalogics",
-  "interest": "AI Automation"
-}
+# API Workflow
+
+The current implementation contains the following API operations:
+
+## 1. Create Lead
+
+**HTTP Method:** `POST`
+
+**Endpoint:**
+
+```text
+/create-lead
